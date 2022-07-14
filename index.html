@@ -2,163 +2,86 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>本地资源导航</title>
-</head>
-<style type="text/css">
-* {
-    margin: 0;
-    padding: 0;
-}
-body {
-	padding: 10px 100px;
-	background-image:none;
-}
-#wrap {
-	width: 800px;
-	margin: 10px auto;
-	font-family: "trebuchet MS", "Lucida sans", Arial;
-	font-size: 14px;
-	color: #444;
-}
-table {
-    *border-collapse: collapse; /* IE7 and lower */
-    border-spacing: 0;
-    width: 100%;
-}
-/*========bordered table========*/
-.bordered {
-	border: solid #ccc 1px;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-	border-radius: 6px;
-	-webkit-box-shadow: 0 1px 1px #ccc;
-	-moz-box-shadow: 0 1px 1px #ccc;
-	box-shadow: 0 1px 1px #ccc;
-	text-align: left;
-}
-.bordered tr {
-    -o-transition: all 0.1s ease-in-out;
-    -webkit-transition: all 0.1s ease-in-out;
-    -moz-transition: all 0.1s ease-in-out;
-    -ms-transition: all 0.1s ease-in-out;
-    transition: all 0.1s ease-in-out;
-}
-.bordered .highlight,  .bordered td:hover { background: #fbf8e9; }
-.bordered td,  .bordered th {
-    border-left: 1px solid #ccc;
-    border-top: 1px solid #ccc;
-    padding: 10px;
-    text-align: left;
-}
-.bordered th {
-    background-color: #dce9f9;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
-    background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
-    background-image: -moz-linear-gradient(top, #ebf3fc, #dce9f9);
-    background-image: -ms-linear-gradient(top, #ebf3fc, #dce9f9);
-    background-image: -o-linear-gradient(top, #ebf3fc, #dce9f9);
-    background-image: linear-gradient(top, #ebf3fc, #dce9f9);
- filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ebf3fc, endColorstr=#dce9f9);
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#ebf3fc, endColorstr=#dce9f9)";
-    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
-    -moz-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
-    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
-    border-top: none;
-    text-shadow: 0 1px 0 rgba(255,255,255,.5);
-}
-.bordered td:first-child,  .bordered th:first-child { border-left: none; }
-.bordered th:first-child {
-    -moz-border-radius: 6px 0 0 0;
-    -webkit-border-radius: 6px 0 0 0;
-    border-radius: 6px 0 0 0;
-}
-.bordered th:last-child {
-	-moz-border-radius: 0 6px 0 0;
-	-webkit-border-radius: 0 6px 0 0;
-	border-radius: 0 6px 0 0;
-	text-align: center;
-}
-.bordered tr:last-child td:first-child {
-    -moz-border-radius: 0 0 0 6px;
-    -webkit-border-radius: 0 0 0 6px;
-    border-radius: 0 0 0 6px;
-}
-.bordered tr:last-child td:last-child {
-	-moz-border-radius: 0 0 6px 0;
-	-webkit-border-radius: 0 0 6px 0;
-	border-radius: 0 0 6px 0;
-	font-size: 15px;
-	font-family: "trebuchet MS", "Lucida sans", Arial;
-}
-	a {
-		text-decoration: none;
-	}
-</style>
-<link rel="stylesheet" href="images/style.css" type="text/css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>夏天的蝉声</title>
+<link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div class="top">
-<ul class="menu">
-	<li class="top"><a href="#" class="top_link"><span>首页</span></a></li>
-	<li class="top"><a href="#" class="top_link"><span>我的相册</span></a></li>
-	<li class="top"><a href="#" class="top_link"><span>我的日志</span></a></li>
-	<li class="top"><a href="#" class="top_link"><span>我的音乐盒</span></a></li>
-	<li class="top"><a href="#" class="top_link"><span>我的介绍</span></a></li>
-	<li class="top"><a href="#" class="top_link"><span>留言板</span></a></li>
-</ul>
-	</div>
-<div id="wrap">
-    <table  class="bordered">
-        <thead style="text-align: right">
-            <tr>
-                <th colspan="4" align="center">本地资源导航</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td colspan="4">本学期课程类</td>
-            </tr>
-            <tr>
-                <td><a href='http://www.uooc.net.cn/league/union' title="生活中的经济学" target="new">生活中的经济学</a></td>
-                <td><a href="网址/优课《生活中的经济学》作业答案 - 百度文库/优课《生活中的经济学》作业答案 - 百度文库.html" title="生活中的经济学答案" target="new">生活中的经济学答案</a></td>
-				<td><a href="https://www.zhihuishu.com/" title="智慧树" target="new" >智慧树</a></td>
-                
-			  <td></td>
-            </tr>
-            <tr>
-                <td>机械测试基础</td>
-                <td><a href="https://wenku.baidu.com/view/a42437bc2379168884868762caaedd3382c4b5f2.html" target="new">机械测试基础答案</a></td>
-                <td><a href="https://wenku.baidu.com/view/0d0837d449649b6648d74797.html" target="new">工程传热学</a></td>
-				<td></td>
-            </tr>
-            <tr>
-                <td colspan="4">常用数学文件</td>
-            <tr>
-                <td><a href="网址/数学常用公式/高等数学.pdf" target="new">高等数学</a></td>
-                <td><a href="网址/数学常用公式/线性代数.pdf" target="new">线性代数</a></td>
-                <td><a href="网址/数学常用公式/概率论与数理统计.pdf" target="new">概率论与数理统计</a></td>
-				<td><a href="网址/数学常用公式/考研数学公式手册（陈文灯）-.pdf" target="new">考研数学公式手册</a></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-				<td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-				<td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-				<td></td>
-            </tr>
-        </tbody>
-    </table>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Header -->
+  <header class="header">
+    <h4 class="logo">夏天的蝉声</h4>
+  </header>
+  <!-- Hero Section -->
+  <section class="intro">
+    <div class="column">
+      <img src="images/headpicture.png" alt="" class="profile"> 
+	  <table width="25%" height="60px" border="0" align="center">
+  <tbody>
+    <tr>
+      <td class="td1" ><a href="personal_information.html">个人信息</a></td>
+      <td class="td1">收藏夹</td>
+      <td class="td1">日记</td>
+    </tr>
+  </tbody>
+</table>
 </div>
+  </section>
+  <!-- Stats Gallery Section -->
+  <div class="gallery">
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>TITLE</h4>
+      <p class="tag">HTML, CSS, JS, WordPress</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>TITLE</h4>
+      <p class="tag">HTML, CSS, JS, WordPress</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>TITLE</h4>
+      <p class="tag">HTML, CSS, JS, WordPress</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>TITLE</h4>
+      <p class="tag">HTML, CSS, JS, WordPress</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+  <div class="gallery">
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>TITLE</h4>
+      <p class="tag">HTML, CSS, JS, WordPress</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>TITLE</h4>
+      <p class="tag">HTML, CSS, JS, WordPress</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>TITLE</h4>
+      <p class="tag">HTML, CSS, JS, WordPress</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>TITLE</h4>
+      <p class="tag">HTML, CSS, JS, WordPress</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+  <!-- Footer Section -->
+  <footer id="contact">
+    <p class="hero_header">GET IN TOUCH WITH ME</p>
+    <div class="button">EMAIL ME </div>
+  </footer>
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2022 - <strong>夏天的蝉声/strong></div>
+</div>
+<!-- Main Container Ends -->
 </body>
 </html>
